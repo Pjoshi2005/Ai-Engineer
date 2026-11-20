@@ -1,0 +1,20 @@
+[project]
+name = "mavenai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Pjoshi2005", email = "147191983+Pjoshi2005@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.31.0",
+    "groq>=1.7.0",
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "openai>=3.31.0",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.20.0",
+    "requests>=2.34.2",
+]
